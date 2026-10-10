@@ -158,7 +158,6 @@ export default function Home() {
             </div>
 
             <div className="hero-footnote">
-              <span className="crosshair">✳</span>
               {t.hero.footnote}
             </div>
           </div>
@@ -238,13 +237,13 @@ export default function Home() {
           {Array.from({ length: 2 }).map((_, index) => (
             <span className="ticker-group" key={index}>
               <span>{t.ticker.ai}</span>
-              <b>✳</b>
+              <b>-</b>
               <span>{t.ticker.robotics}</span>
-              <b>✳</b>
+              <b>-</b>
               <span>{t.ticker.software}</span>
-              <b>✳</b>
+              <b>-</b>
               <span>{t.ticker.systems}</span>
-              <b>✳</b>
+              <b>-</b>
             </span>
           ))}
         </div>
@@ -462,7 +461,7 @@ export default function Home() {
           <span>{t.footer.copyright}</span>
           <span>
             {t.footer.tagline}{" "}
-            <span className="yellow">✳</span>
+            <span className="yellow">-</span>
           </span>
         </div>
       </footer>
